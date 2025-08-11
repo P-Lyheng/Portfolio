@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Lyheng - Fullstack Developer</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="home">
+        <div class="scroll-progress"></div>
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <nav>
+            <div class="nav-container">
+                <a href="#home" class="logo">P-Lyheng</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <div class="theme-toggle" onclick="toggleTheme()"></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="typing-animation" id="typingText">P-Lyheng</span></h1>
+                    <p class="subtitle">Fullstack Developer & System Architect</p>
+                    <p class="description">
+                        I craft exceptional digital experiences from frontend to backend.
+                        Specializing in scalable applications, modern frameworks, and
+                        cloud infrastructure that powers the next generation of web.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="cta-button">View My Work</a>
+                        <a href="#contact" class="cta-button secondary">Let's Talk</a>
+                    </div>
+                </div>
+                <div class="code-display">
+                    <div class="code-header">
+                        <div class="code-dot red"></div>
+                        <div class="code-dot yellow"></div>
+                        <div class="code-dot green"></div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line"><span class="code-keyword">const</span> <span
+                                class="code-function">developer</span> = {</div>
+                        <div class="code-line"> <span class="code-keyword">name</span>: <span class="code-string">"Poeng
+                                Lyheng"</span>,</div>
+                        <div class="code-line"> <span class="code-keyword">skills</span>: [<span
+                                class="code-string">"React"</span>, <span class="code-string">"Node.js"</span>, <span
+                                class="code-string">"Python"</span>],</div>
+                        <div class="code-line"> <span class="code-keyword">passion</span>: <span
+                                class="code-string">"Building amazing things"</span>,</div>
+                        <div class="code-line"> <span class="code-keyword">available</span>: <span
+                                class="code-keyword">true</span> <span class="code-comment">// Ready for new
+                                challenges!</span></div>
+                        <div class="code-line">};</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-banner">
+            <h2>Full-Stack Technology Arsenal</h2>
+            <p class="skills-subtitle">
+                Mastering the complete development ecosystem from pixel-perfect frontends
+                to scalable backend architectures and cloud infrastructure.
+            </p>
+            <div class="skills-stack">
+                <div class="skill-category">
+                    <h3><span class="category-icon"><i class="fa-solid fa-code"></i></span> Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-logo"><i class="fa-brands fa-vuejs"></i></div>
+                            <div class="skill-name">Vue.js</div>
+                            <div class="skill-level">just start</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Next.js</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">TypeScript</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo"><i class="fa-brands fa-bootstrap"></i></div>
+                            <div class="skill-name">bootstrap</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon"><i class="fa-solid fa-gear"></i></span> Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-logo"><i class="fa-brands fa-node"></i></div>
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo"><i class="fa-brands fa-python"></i></div>
+                            <div class="skill-name">Python</div>
+                            <div class="skill-level">Just start</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Express</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">FastAPI</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon"><i class="fa-solid fa-database"></i></span> Database & Storage</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">MongoDB</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-name">MySQL</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><span class="category-icon"><i class="fa-solid fa-cloud"></i></span> Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-logo"><i class="fa-brands fa-docker"></i></div>
+                            <div class="skill-name">Docker</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo"><i class="fa-brands fa-aws"></i></div>
+                            <div class="skill-name">AWS</div>
+                            <div class="skill-level">just start</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-name">Netlify</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Professional Journey</h2>
+            <p class="experience-subtitle">
+                Building scalable solutions and leading technical innovation across diverse industries
+            </p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-title">Junior Fullstack Developer</div>
+                        <div class="timeline-company">Self-employed</div>
+                        <div class="timeline-description">
+                            I’m leading and managing a team. I designed and implemented websites and systems like COPE
+                            BETA (QR-code attendance) and tourism platforms. I’m passionate about turning ideas into
+                            real products that help people and communities.
+                        </div>
+                        <div class="timeline-technologies">
+                            <span class="tech-chip">Node.js</span>
+                            <span class="tech-chip">Vue.js</span>
+                            <span class="tech-chip">FastAPI</span>
+                            <span class="tech-chip">Express</span>
+                            <span class="tech-chip">TypeScript</span>
+                            <span class="tech-chip">AWS</span>
+                            <span class="tech-chip">Docker</span>
+                            <span class="tech-chip">MySQL</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025(April) - 2025(August)</div>
+                        <div class="timeline-title">Project Developer</div>
+                        <div class="timeline-company"> PCHUNCHANACSAMAI CO., LTD.</div>
+                        <div class="timeline-description">
+                            I worked as a Project Developer at PCHUNCHANACSAMAI Co., Ltd., managing and developing
+                            Mekong Media Center and Bassac Tech. This role gave me hands-on experience in technical
+                            work, team and time management, and leadership.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I'm Poeng Lyheng, a Software Development student at Norton University passionate about full-stack
+                        development and using technology to create community impact.
+                    </p>
+                    <p>
+
+                        I've led and contributed to youth and tech initiatives like the Mekong Major, Cerrar Festival,
+                        and Mekong Tech Festival, with my leadership journey starting in high school through HOPE Edu
+                        and the Counseling Youth team.
+
+                    </p>
+                    <p>
+                        My work includes COPE BETA, tourism websites, and media platforms. Skilled in JavaScript,
+                        Pytho, I aim to combine technology and motivational speaking to inspire change.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Projects Delivered</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">...</div>
+                            <div class="stat-label">Users Served</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">90%</div>
+                            <div class="stat-label">Uptime Achieved</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-image-container">
+                    <!-- Replace the src with your actual image URL -->
+                    <!-- <img src="your-photo.jpg" alt="Your Name" class="profile-image"> -->
+
+                    <!-- Placeholder - remove this div when you add your image -->
+                    <div class="profile-image-placeholder">
+                        👨‍💻
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>
+                        Crafting clean, high-performance user interfaces Vue.js, and TypeScript. I focus on building
+                        fast, responsive, and accessible UIs that deliver exceptional user experiences across devices.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>
+                        Engineering powerful, scalable backend systems using Node.js, Express, and Python (FastAPI). I
+                        build RESTful with a strong emphasis on security, maintainability, and real-world performance.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile-Friendly Interfaces</h3>
+                    <p>
+                        While not focused on full mobile app stacks, I design web platforms that are mobile-first and
+                        responsive. I have foundational experience with Flutter and React Native for cross-platform
+                        experimentation.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud Architecture</h3>
+                    <p>
+                        Deploying and managing full-stack apps using Docker, AWS, and platforms like Vercel and Netlify.
+                        I embrace automation, scalability, and modern DevOps practices to ensure smooth deployments.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Full-Stack Performance Optimization</h3>
+                    <p>
+                        Improving frontend and backend performance across the stack — from reducing bundle size and
+                        server response time to optimizing database queries and infrastructure.
+
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Technical Leadership & Project Guidance</h3>
+                    <p>
+                        Providing architecture reviews, tech-stack planning, and guidance for building production-ready
+                        applications. I aim to empower teams and bring clarity to complex development decisions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>COPE BETA – Smart Attendance System</h3>
+                        <p>
+                            A QR-code-based student attendance platform designed for universities and schools. Built
+                            with a full-stack architecture for real-time check-ins, admin dashboard, and analytics.
+                            Improving accountability and modernizing classroom tracking.
+
+
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Coming Soon</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3> Khmer Angkor Trek </h3>
+                        <p>
+                            An interactive tourism platform showcasing destinations, local culture, and history across
+                            Cambodia. Integrated with map-based navigation, photo galleries, and multilingual support.
+                            Helping travelers explore with ease and learn deeply about Khmer heritage.
+
+
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Bootstrap 5</span>
+                            <span class="tech-tag">Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://antstudents.com/WebScholarshipS2/Group-5/ProjectCSS_KhmerAngkorTrek/index.html"
+                                class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>AI Therapy Chatbot (In Progress)</h3>
+                        <p>
+                            An AI-powered mental health assistant with mood tracking, personalized suggestions,
+                            self-assessment quizzes, and multilingual support (Khmer/English).
+                            💬 Empowering users with 24/7 access to emotional support and mental health education.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Coming Soon</a>
+                        </div>
+                    </div>
+                    <div class="project-card text-center">
+                        <h3>More Project is coming</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>What Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote">"</div>
+                    <div class="testimonial-text">
+                        ...
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">...</div>
+                        <div class="author-info">
+                            <h4>...</h4>
+                            <p>...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote">"</div>
+                    <div class="testimonial-text">
+                        ...
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">...</div>
+                        <div class="author-info">
+                            <h4>...</h4>
+                            <p>...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote">"</div>
+                    <div class="testimonial-text">
+                        ...
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">...</div>
+                        <div class="author-info">
+                            <h4>...</h4>
+                            <p>...</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Let's Build Something Amazing Together</h2>
+                <p>
+                    Ready to turn your ideas into reality? I'm always excited to work on innovative
+                    projects and collaborate with forward-thinking teams. Let's create something extraordinary!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:your.email@example.com" class="contact-link">
+                        📧 Email Me
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" class="contact-link">
+                        💼 LinkedIn
+                    </a>
+                    <a href="https://github.com/yourusername" class="contact-link">
+                        🐙 GitHub
+                    </a>
+                    <a href="tel:+1234567890" class="contact-link">
+                        📱 Call Me
+                    </a>
+                    <a href="https://twitter.com/yourusername" class="contact-link">
+                        🐦 Twitter
+                    </a>
+                    <a href="https://calendly.com/yourname" class="contact-link">
+                        📅 Schedule Call
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="floating-btn" onclick="scrollToTop()" title="Back to Top">
+            ↑
+        </div>
+
+    </footer>
+
+    <script src="script.js"> </script>
+    <script src="https://kit.fontawesome.com/da9abd53f0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
